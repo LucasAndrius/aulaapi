@@ -1,0 +1,28 @@
+O que a projeto precisa fazer ?
+
+- listar os projetos
+- pegar informações de um projetos
+- inserir um novo projeto
+- atualizar um projeto 
+- deletar um projeto 
+
+Qual estrutura de dados?
+
+- local para armazenas os projetos 
+-- id
+-- title
+-- body
+
+Quais os endpoints?
+
+- (METODO) /url (PARÂMETROS)
+
+- (GET) /api/projetos
+- (GET) /api/projeto/123
+- (POST) /api/projeto (title, body)
+- (PUT) /api/projeto/123 (title,body)
+- (DELETE) /api/note/123
+
+
+
+

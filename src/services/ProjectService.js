@@ -62,4 +62,16 @@ module.exports = {
 
         });
     },
+    delete:(id) =>{
+        return new Promise((resolve, reject)=>{
+
+            db.query('DELETE FROM projects WHERE id = ?',[id],
+                (error, results)=>{
+                    if(error) { reject(error); return; }
+                    resolve(results);
+                }
+            )
+
+        });
+    }
 };
